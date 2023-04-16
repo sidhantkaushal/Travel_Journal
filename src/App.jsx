@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Navbar from "./Components/Navbar";
 import Display_Card from "./Components/Display_Card";
 import data from "./data";
