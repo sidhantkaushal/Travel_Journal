@@ -11,7 +11,7 @@ function Display_Card({ img, country, loc, locLink, time, desc }) {
         <div className="place-desc">
           <img
             className="location-icon"
-            src="public/Images/location.png"
+            src="https://freepngimg.com/download/symbol/69580-symbol-computer-location-icons-hq-image-free-png.png"
             alt=""
           />
           <span className="Countryname">{country}</span>
