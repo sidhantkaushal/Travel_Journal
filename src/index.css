@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Inter;
+}
+#root {
+  padding: 0;
+  margin: 0;
+  min-width: 100%;
+}
+
+/* Navbar Section */
+
+.navbar-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  height: 4em;
+  width: 100%;
+  background: #f55a5a;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-box > h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+}
+
+/* Main section */
+.Main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px;
+  row-gap: 36px;
+  margin-top: 50px;
+}
+
+/* Card section */
+.Card {
+  display: flex;
+  flex-direction: row;
+  column-gap: 19px;
+}
+
+.div-img {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 25%;
+}
+.place-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  border-radius: 5px;
+}
+
+.place-desc {
+  flex-grow: 3;
+  flex-shrink: 0;
+  flex-basis: 75%;
+  text-align: left;
+  padding: 1rem;
+}
+
+.Countryname {
+  margin-right: 12px;
+  margin-left: 5px;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+}
+
+.map-link > a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918e9b;
+}
+.location {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 30px;
+  color: #2b283a;
+}
+
+.timeline {
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2b283a;
+}
+
+.desc {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2b283a;
+}
+
+.location-icon {
+  height: 12px;
+  width: 12px;
+}
+
+/* Mobile Design */
+
+@media only screen and (max-width: 767px) {
+  .Main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px;
+    row-gap: 36px;
+    margin-top: 50px;
+  }
+
+  .Card {
+    display: flex;
+    flex-direction: column;
+    column-gap: 19px;
+    text-align: center;
+  }
+
+  .place-desc {
+    padding: 0rem;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+}
